@@ -1,0 +1,39 @@
+name: hw3-spatial-ai
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - git
+  - cmake
+  - ninja
+  - ffmpeg
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - numpy
+  - pandas
+  - matplotlib
+  - pyyaml
+  - tqdm
+  - pillow
+  - scipy
+  - opencv
+  - pip:
+      - datasets
+      - huggingface_hub
+      - wandb
+      - tensorboard
+      - hydra-core
+      - omegaconf
+      - tyro
+      - einops
+      - imageio
+      - imageio-ffmpeg
+      - trimesh
+      - open3d
+      - lerobot
+

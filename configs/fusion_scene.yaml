@@ -1,0 +1,25 @@
+output_dir: /mnt/data/kw/hy/projects/course/DL/hw3/outputs/fusion
+resolution:
+  width: 1280
+  height: 720
+frames: 180
+fps: 30
+background:
+  name: flowers
+  gaussian_ply: /mnt/data/kw/hy/projects/course/DL/hw3/outputs/3dgs_background/flowers/point_cloud/iteration_30000/point_cloud.ply
+objects:
+  - name: object_a_real_recon
+    path: /mnt/data/kw/hy/projects/course/DL/hw3/outputs/object_a/point_cloud/iteration_30000/point_cloud.ply
+    location: [0.0, 0.0, 0.0]
+    rotation: [0.0, 0.0, 0.0]
+    scale: [0.35, 0.35, 0.35]
+  - name: object_b_text3d
+    path: /mnt/data/kw/hy/projects/course/DL/hw3/outputs/text_asset_b_real/export/model.obj
+    location: [0.7, 0.0, 0.0]
+    rotation: [0.0, 0.0, 0.0]
+    scale: [0.25, 0.25, 0.25]
+  - name: object_c_image3d
+    path: /mnt/data/kw/hy/projects/course/DL/hw3/outputs/image_asset_c_real/export/model.obj
+    location: [-0.7, 0.0, 0.0]
+    rotation: [0.0, 0.0, 0.0]
+    scale: [0.25, 0.25, 0.25]

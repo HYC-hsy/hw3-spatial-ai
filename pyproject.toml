@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hw3-spatial-ai"
+version = "0.1.0"
+description = "DL HW3 spatial intelligence project: 3DGS/AIGC fusion and LeRobot ACT CALVIN experiments."
+requires-python = ">=3.10"
+dependencies = [
+  "datasets",
+  "huggingface_hub",
+  "pyyaml",
+  "pandas",
+  "numpy",
+  "tqdm",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

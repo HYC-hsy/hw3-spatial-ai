@@ -1,0 +1,16 @@
+experiment_name: act_env_abc
+dataset_root: /mnt/data/kw/hy/projects/course/DL/hw3/processed/calvin_lerobot/env_abc_train
+eval_dataset_root: /mnt/data/kw/hy/projects/course/DL/hw3/processed/calvin_lerobot/env_d_eval
+output_dir: /mnt/data/kw/hy/projects/course/DL/hw3/outputs/act_env_abc
+policy: act
+device: cuda
+batch_size: 32
+steps: 50000
+learning_rate: 1.0e-5
+weight_decay: 1.0e-4
+chunk_size: 100
+wandb_project: dl-hw3-act-calvin
+wandb_mode: online
+extra_args:
+  - policy.repo_id=act_calvin_env_abc
+

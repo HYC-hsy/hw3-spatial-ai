@@ -1,0 +1,9 @@
+prompt: "a small ceramic robot toy, detailed texture, white and blue, studio lighting"
+experiment_name: text_asset_b
+output_dir: /mnt/data/kw/hy/projects/course/DL/hw3/outputs/text_asset_b_real
+threestudio_config: configs/dreamfusion-sd.yaml
+export_config: configs/gradio/dreamfusion-sd.yaml
+stable_diffusion_model: sd-legacy/stable-diffusion-v1-5
+export_format: obj-mtl
+recommended_steps: 10000
+smoke_steps: 20

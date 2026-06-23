@@ -1,0 +1,18 @@
+experiment_name: act_env_a
+dataset_root: /mnt/data/kw/hy/projects/course/DL/hw3/data/calvin_task_ABC_D/calvin_task_ABC_D_lerobot_0_4
+eval_dataset_root: /mnt/data/kw/hy/projects/course/DL/hw3/data/calvin_task_ABC_D/calvin_task_ABC_D_lerobot_3_4
+output_dir: /mnt/data/kw/hy/projects/course/DL/hw3/outputs/_smoke_act_env_a_final3
+policy: act
+video_backend: pyav
+push_to_hub: false
+device: cuda
+batch_size: 2
+steps: 1
+learning_rate: 1.0e-5
+weight_decay: 1.0e-4
+chunk_size: 100
+wandb_project: dl-hw3-act-calvin
+wandb_mode: offline
+extra_args:
+  - policy.repo_id=act_calvin_env_a
+

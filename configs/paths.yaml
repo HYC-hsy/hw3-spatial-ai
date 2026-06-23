@@ -1,0 +1,9 @@
+server_root: /mnt/data/kw/hy/projects/course/DL/hw3
+calvin_root: /mnt/data/kw/hy/projects/course/DL/hw3/data/calvin_task_ABC_D
+local_calvin_root: /Users/tomato/Documents/potato/project/course/DL/hw3/data/calvin_task_ABC_D
+mipnerf_root: /mnt/data/kw/hy/projects/course/DL/hw3/data
+mipnerf_360_extra_root: /mnt/data/kw/hy/projects/course/DL/hw3/data/360_extra_scenes
+local_mipnerf_360_extra_root: /Users/tomato/Documents/potato/project/course/DL/hw3/data/360_extra_scenes
+processed_root: /mnt/data/kw/hy/projects/course/DL/hw3/processed
+outputs_root: /mnt/data/kw/hy/projects/course/DL/hw3/outputs
+external_root: /mnt/data/kw/hy/projects/course/DL/hw3/external

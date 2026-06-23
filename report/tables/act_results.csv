@@ -1,0 +1,3 @@
+run,checkpoint,eval_dataset,frames,batches,mean_loss,frames_per_s
+act_env_a_to_env_d_offline,/mnt/data/kw/hy/projects/course/DL/hw3/outputs/act_env_a/checkpoints/050000,calvin_task_ABC_D_lerobot_3_4,267373,8356,0.164878256462858,172.4521555878476
+act_env_abc_to_env_d_offline,outputs/act_env_abc/checkpoints/050000,calvin_task_ABC_D_lerobot_3_4,267373,8356,0.14512578789136882,172.66254299434212
